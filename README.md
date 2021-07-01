@@ -1,8 +1,8 @@
 # May Effect Blog 
 
-All of our analysis and results can be found in the blog on our [website](https://extremistanresearch.com). In this README, we will  broadly explain our code, as   well as our though process in our methodology. 
+All of our analysis and results can be found in the blog on our [website](https://extremistanresearch.com). In this README, we will broadly explain our code, as   well as our thought process in our methodology. 
   
-We used 2 python programs to gather the  data for our blog. This was neccesaary because we used two different data sets, which both needed slightly different       methods for importing and analyzing.
+We used 2 python programs to gather the data for our blog. This was neccesaary because we used two different data sets, which both needed slightly different       methods for importing and analyzing.
 
 
 ## may_effect.py
