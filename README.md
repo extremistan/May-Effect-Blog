@@ -1,2 +1,4 @@
-# May-Effect-Blog
-This is all the code for our blog on the May Effect
+# May Effect Blog 
+
+All of our analysis and results can be found in the blog on our [website](https://exrtremistanresearch.com)
+
