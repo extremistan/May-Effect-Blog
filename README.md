@@ -12,8 +12,8 @@ The first python file we used was may_effect.py. This program uses the Yahoo Fin
 `data = yf.download("SPY", start="1900-01-01", end="2021-05-01", interval = "1mo")`
   
 We then looped through all the data. Everytime it was the start of May, we would store the data in one list, and when that period ended and Novembner started, we would store the data in another list. After each period, we would caculate the average percent change for the 6 month period. 
-  
-```for i in range(len(data.index)):
+```
+for i in range(len(data.index)):
 
     # Begin on the first May of the data set
     if int(data.index[i].month) == 5 and begin == False:
@@ -35,7 +35,16 @@ We then looped through all the data. Everytime it was the start of May, we would
 
         # Finish time period at the end of April
         elif int(data.index[i].month) == 4:
-            november_april.append(((data["Close"][i] - start_price) / start_price) * 100)```
+            november_april.append(((data["Close"][i] - start_price) / start_price) * 100)
+```
+We then removed any empty data that may have appeared in our lists, and then averaged the percent change over all the periods to get a total percent change for each 6 month period. Finally, we graphed the data in a bar chart and saved it.
+
+
+## may_effect_alternate_data.py
+
+While the Yahoo Finance data allowed us to do almost everything we wanted, it didn't allow us to go as far into the past as we had hoped. In order to do this, we found data that went all the way back to 1877 (linked here).
+
+
   
 
 
